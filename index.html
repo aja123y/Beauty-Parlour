@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Style/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Beauty Palour</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav_data">
+          <a href="#" class="nav_logo">
+            <div class="logo">
+              <img src="./photo/logo.png" alt="" />
+              <h1>KAVITA</h1>
+            </div>
+          </a>
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="ri-menu-line nav_burger"></i>
+            <i class="ri-close-line nav_close"></i>
+          </div>
+        </div>
+
+        <!-- MENU  -->
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li>
+              <a href="./index.html" target="_self" class="nav_link">Home</a>
+            </li>
+
+            <li><a href="./blog.html" class="nav_link">Blog</a></li>
+
+            <!-- DROPDOWN 1 -->
+            <li class="dropdown_item">
+              <div class="nav_link">
+                Services <i class="ri-arrow-down-s-fill dropdoen_arrow"></i>
+              </div>
+
+              <ul class="dropdown_menu">
+                <li>
+                  <a href="./haircut.html" class="dropdown_link">
+                    HairCut & HairStyle
+                  </a>
+                </li>
+
+                <li>
+                  <a href="./hairTreatment.html" class="dropdown_link">
+                    Hair Treatment & Hair Spa
+                  </a>
+                </li>
+
+                <li>
+                  <a href="./beauty.html" class="dropdown_link">
+                    Makeup & Beauty Services
+                  </a>
+                </li>
+
+                <li>
+                  <a href="./hairTexture.html" class="dropdown_link">
+                    Hair Texture
+                  </a>
+                </li>
+
+                <li>
+                  <a href="./Massage.html" class="dropdown_link">
+                    Massage Therapies
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="./about.html" class="nav_link">About</a></li>
+
+            <li><a href="#" class="nav_link">Book Now</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- SECTION 1  -->
+    <section class="section">
+      <div class="section_container">
+        <div class="section_imag">
+          <img src="./photo/anastasiia.jpg" alt="" class="image" />
+        </div>
+
+        <div
+          class="section_name"
+          data-aos="zoom-out-right"
+          data-aos-duration="1000"
+        >
+          <span>KAVITA </span>
+          <p>BEAUTY PALOUR</p>
+        </div>
+      </div>
+
+      <!-- FORM -->
+
+      <div class="form">
+        <h1 class="form_heading">inquiry now</h1>
+        <form action="">
+          <div class="from_input">
+            <div class="input_field">
+              <input type="text" placeholder="First Name" />
+            </div>
+
+            <div class="input_field">
+              <input type="text" placeholder="Last Name" />
+            </div>
+          </div>
+          <div class="from_input">
+            <div class="input_field">
+              <input type="email" placeholder="Enter Email" />
+            </div>
+
+            <div class="form_number">
+              <span>+91</span>
+              <div class="input_field_number">
+                <input
+                  type="number"
+                  class="input_field_number"
+                  placeholder="91XXXXXXXX"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="from_input">
+            <div class="input_field">
+              <input type="text" placeholder="Location" />
+            </div>
+
+            <div class="input_field">
+              <select class="section" id="service" name="service">
+                <option value="#">Hair Services</option>
+                <option value="#">Makeup at Home</option>
+                <option value="#">Pre Bridal</option>
+                <option value="#">Nails at Home</option>
+                <option value="#">Mehendi at Home</option>
+                <option value="#">Male Grooming</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="input_field_textarea">
+            <textarea name="" id="" placeholder="Write your Massage"></textarea>
+          </div>
+
+          <div class="submit_button">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Luxury Beauty Services for a Stunning You -->
+
+    <section class="section_three">
+      <div class="section_three_container">
+        <h3 id="h3">Luxury Beauty Services for a Stunning You</h3>
+        <hr />
+        <div class="section_three_services">
+          <div
+            class="section_three_option"
+            data-aos="zoom-out-up"
+            data-aos-duration="1000"
+          >
+            <div class="section_three_option_service">
+              <div class="section_three_option_block">
+                <div class="sectoin_three_option_image">
+                  <img src="./photo/hair_service.jpg" alt="Hair Services" />
+                </div>
+                <div class="section_three_option_heading">
+                  <h1>Hair Services</h1>
+                </div>
+              </div>
+
+              <div class="section_three_option_block">
+                <div class="sectoin_three_option_image">
+                  <img src="./photo/makup.jpg" alt="Makeup at Home" />
+                </div>
+                <div class="section_three_option_heading">
+                  <h1>Makeup at Home</h1>
+                </div>
+              </div>
+
+              <div class="section_three_option_block">
+                <div class="sectoin_three_option_image">
+                  <img src="./photo/PreBridal.jpg" alt="Pre Bridal" />
+                </div>
+                <div class="section_three_option_heading">
+                  <h1>Pre Bridal</h1>
+                </div>
+              </div>
+
+              <div class="section_three_option_block">
+                <div class="sectoin_three_option_image">
+                  <img src="./photo/nail.jpg" alt="Nails at Home" />
+                </div>
+                <div class="section_three_option_heading">
+                  <h1>Nails at Home</h1>
+                </div>
+              </div>
+
+              <div class="section_three_option_block">
+                <div class="sectoin_three_option_image">
+                  <img src="./photo/mehendi.jpg" alt="Mehendi at Home" />
+                </div>
+                <div class="section_three_option_heading">
+                  <h1>Mehendi at Home</h1>
+                </div>
+              </div>
+
+              <div class="section_three_option_block">
+                <div class="sectoin_three_option_image">
+                  <img src="./photo/men.jpg" alt="Male Grooming" />
+                </div>
+                <div class="section_three_option_heading">
+                  <h1>Male Grooming</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2 KAVITA BEAUTY PALOUR  -->
+    <section class="section_two">
+      <div
+        class="section_two_container"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+      >
+        <div class="section_two_about">
+          <h1>KAVITA BEAUTY PALOUR</h1>
+          <div class="section_border_bottem"></div>
+          <p>
+            It has always been you inviting us to your house. It is time for us
+            invite you to our place visit our first-ever Kavite beauty Palour in
+            Muzaffarnagar and get a luxurious pampering experience. From Hair
+            Wash, Hair spa & Makeup to Abvance LED facial, Spa and Steam Bath
+            everything is available at the most affordable prices at a
+            smart-beauty-palour near you
+          </p>
+        </div>
+        <div class="button" data-aos="zoom-out-right" data-aos-duration="1500">
+          <a href="./about.html"
+            >FIND OUT MORE <i class="ri-arrow-right-wide-fill"></i
+          ></a>
+        </div>
+        <div
+          class="section_two_video"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <video src="./photo/video.mp4" autoplay muted loop></video>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION GALLERY -->
+    <section class="gallery">
+      <div class="gallery_container">
+        <div class="gallery_info">
+          <h1 class="gallery_heading">OUR GALLERY</h1>
+          <hr id="hr" />
+          <p class="gallery_decription">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+            suscipit?
+          </p>
+        </div>
+
+        <div class="gallery_box">
+          <div class="gallery_images">
+            <a
+              href="./photo/g_01.png"
+              data-lightbox="models"
+              data-title="caption1"
+            >
+              <img src="./photo/g_01.png" alt="" />
+            </a>
+          </div>
+          <div class="gallery_images">
+            <a
+              href="./photo/g_01.png"
+              data-lightbox="models"
+              data-title="caption1"
+            >
+              <img src="./photo/g_01.png" alt="" />
+            </a>
+          </div>
+          <div class="gallery_images">
+            <a
+              href="./photo/g_01.png"
+              data-lightbox="models"
+              data-title="caption1"
+            >
+              <img src="./photo/g_01.png" alt="" />
+            </a>
+          </div>
+          <div class="gallery_images">
+            <a
+              href="./photo/g_01.png"
+              data-lightbox="models"
+              data-title="caption1"
+            >
+              <img src="./photo/g_01.png" alt="" />
+            </a>
+          </div>
+          <div class="gallery_images">
+            <a
+              href="./photo/g_01.png"
+              data-lightbox="models"
+              data-title="caption1"
+            >
+              <img src="./photo/g_01.png" alt="" />
+            </a>
+          </div>
+
+          <div class="gallery_images">
+            <a
+              href="./photo/g_01.png"
+              data-lightbox="models"
+              data-title="caption1"
+            >
+              <img src="./photo/g_01.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3  Services we offer  -->
+    <section class="section_three">
+      <div class="section_three_container">
+        <h1>SERVICES WE OFFER</h1>
+        <div class="section_three_services">
+          <div
+            class="section_three_type"
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+          >
+            <div class="section_three_div">
+              <div class="section_three_pic">
+                <img src="./photo/1798.jpg" alt="" />
+              </div>
+              <div class="section_three_info">
+                <h1>Female Salon at Home</h1>
+                <p>
+                  We provide a range of beauty services at the comfort of your
+                  home. From waxing, facials, clean-ups and mani-pedi to body
+                  polishing and even hair spa, you name it we have it.
+                </p>
+              </div>
+              <div
+                class="button"
+                data-aos="zoom-out-right"
+                data-aos-duration="1500"
+              >
+                <a href="./about.html"
+                  >FIND OUT MORE <i class="ri-arrow-right-wide-fill"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              class="section_three_div"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+            >
+              <div class="section_three_pic">
+                <img src="./photo/11100.jpg" alt="" />
+              </div>
+              <div class="section_three_info">
+                <h1>Female Spa at Home</h1>
+                <p>
+                  Whether you want to de-stress yourself or get a pain-relieving
+                  body massage we have everything in the bucket for you. With
+                  this we also cater the needs of elderly, new moms, kids &
+                  period pain.
+                </p>
+              </div>
+            </div>
+            <div
+              class="section_three_div"
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+            >
+              <div class="section_three_pic">
+                <img src="./photo/advance.jpg" alt="" />
+              </div>
+              <div class="section_three_info">
+                <h1>Advance Facials</h1>
+                <p>
+                  As we age our skin tends to loose collagen and becomes dull &
+                  wrinkly. We offer Advance LED Facials at Home that nourish
+                  your skin with LED Light making it look younger, firmer &
+                  hydrated.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- ============================ -->
+          <!-- <div
+            class="section_three_option"
+            data-aos="zoom-out-up"
+            data-aos-duration="1000"
+          >
+            <div class="section_three_option_service">
+              <div class="section_three_option_block">
+                <div class="sectoin_three_option_image">
+                  <img src="./photo/hair_service.jpg" alt="Hair Services" />
+                </div>
+                <div class="section_three_option_heading">
+                  <h1>Hair Services</h1>
+                </div>
+              </div>
+
+              <div class="section_three_option_block">
+                <div class="sectoin_three_option_image">
+                  <img src="./photo/makup.jpg" alt="Makeup at Home" />
+                </div>
+                <div class="section_three_option_heading">
+                  <h1>Makeup at Home</h1>
+                </div>
+              </div>
+
+              <div class="section_three_option_block">
+                <div class="sectoin_three_option_image">
+                  <img src="./photo/PreBridal.jpg" alt="Pre Bridal" />
+                </div>
+                <div class="section_three_option_heading">
+                  <h1>Pre Bridal</h1>
+                </div>
+              </div>
+
+              <div class="section_three_option_block">
+                <div class="sectoin_three_option_image">
+                  <img src="./photo/nail.jpg" alt="Nails at Home" />
+                </div>
+                <div class="section_three_option_heading">
+                  <h1>Nails at Home</h1>
+                </div>
+              </div>
+
+              <div class="section_three_option_block">
+                <div class="sectoin_three_option_image">
+                  <img src="./photo/mehendi.jpg" alt="Mehendi at Home" />
+                </div>
+                <div class="section_three_option_heading">
+                  <h1>Mehendi at Home</h1>
+                </div>
+              </div>
+
+              <div class="section_three_option_block">
+                <div class="sectoin_three_option_image">
+                  <img src="./photo/men.jpg" alt="Male Grooming" />
+                </div>
+                <div class="section_three_option_heading">
+                  <h1>Male Grooming</h1>
+                </div>
+              </div>
+            </div>
+          </div>  -->
+          <!-- ============================ -->
+          <div class="section_three_bottom_type">
+            <div
+              class="section_three_bottom_service"
+              data-aos="zoom-out-right"
+              data-aos-duration="1000"
+            >
+              <div class="section_three_bottom_pic">
+                <img src="./photo/beatuy_face.jpg" alt="" />
+              </div>
+              <div class="section_three_bottom_discription">
+                <h1>Beautiful Face, Beautiful You</h1>
+                <p>
+                  If you want to pamper yourself and rejuvenate your mind, body
+                  and soul then we are here to offer you the finest services.
+                  Making use of the premium range of quality products, we
+                  provide customized beauty services so that you can look
+                  gorgeous and dazzling.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="section_three_bottom_service"
+              data-aos="zoom-out-right"
+              data-aos-duration="1000"
+            >
+              <div class="section_three_bottom_pic">
+                <img src="./photo/haircut.jpg" alt="" />
+              </div>
+              <div class="section_three_bottom_discription">
+                <h1>haircut and style that best suit your personality!</h1>
+                <p>
+                  Are you unhappy with your current haircut and style? Wondering
+                  how to get the best? We can help you get the hair style and
+                  haircut which accentuates your style and personality.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="section_three_bottom_service"
+              data-aos="zoom-out-right"
+              data-aos-duration="1000"
+            >
+              <div class="section_three_bottom_pic">
+                <img src="./photo/Deep.jpg" alt="" />
+              </div>
+              <div class="section_three_bottom_discription">
+                <h1>Deep Nourishing Your Hair</h1>
+                <p>
+                  When it comes to hair spa treatments, we know the importance
+                  of providing the right blend of ingredients to give your hair
+                  and skin a much better and improved look.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="section_three_bottom_service"
+              data-aos="zoom-out-right"
+              data-aos-duration="1000"
+            >
+              <div class="section_three_bottom_pic">
+                <img src="./photo/smootHair.jpg" alt="" />
+              </div>
+              <div class="section_three_bottom_discription">
+                <h1>For smooth and improved hair texture!</h1>
+                <p>
+                  No matter which hair care treatment you choose, we provide it
+                  after carefully understanding the texture of your hair so that
+                  you can get effective and beyond satisfactory results.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="section_three_bottom_service"
+              data-aos="zoom-out-right"
+              data-aos-duration="1000"
+            >
+              <div class="section_three_bottom_pic">
+                <img src="./photo/spa.jpg" alt="" />
+              </div>
+              <div class="section_three_bottom_discription">
+                <h1>Exclusive Ladies Spa</h1>
+                <p>
+                  If you want to pamper yourself and rejuvenate your mind, body
+                  and soul then we are here to offer you the finest services.
+                  Making use of the premium range of quality products, we
+                  provide customized beauty services so that you can look
+                  gorgeous and dazzling.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="button" data-aos="zoom-out-right" data-aos-duration="1000">
+          <a href="./beauty.html"
+            >FIND OUT MORE <i class="ri-arrow-right-wide-fill"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER  -->
+
+    <footer class="footer">
+      <div class="footer_container">
+        <div class="footer_biv_flex">
+          <div class="footer_box">
+            <h1>Quick Links</h1>
+            <ul>
+              <li>
+                <a href="./index.html" target="_self">Home</a>
+              </li>
+
+              <li><a href="./blog.html">Blog</a></li>
+
+              <li><a href="./beauty.html">Service</a></li>
+
+              <li><a href="./about.html">About</a></li>
+
+              <li><a href="#">Book Now</a></li>
+            </ul>
+          </div>
+          <div class="footer_box">
+            <h1>Services</h1>
+            <ul>
+              <li>
+                <a href="./haircut.html" target="_self">HairCut & HairStyle</a>
+              </li>
+
+              <li>
+                <a href="./hairTreatment.html" target="_self"
+                  >Hair Treatment & Hair Spa</a
+                >
+              </li>
+
+              <li><a href="./beauty.html">Makeup & Beauty Services</a></li>
+
+              <li><a href="./hairTexture.html">Hair Texture</a></li>
+
+              <li><a href="./Massage.html">Massage Therapies</a></li>
+            </ul>
+          </div>
+          <!-- <div class="footer_box">
+            <div class="footer_date">
+              <div><p>Monday</p></div>
+              <div><p>10:30 - 21:00</p></div>
+            </div>
+            <div class="footer_date">
+              <div><p>Tuesday</p></div>
+              <div><p>10:30 - 21:00</p></div>
+            </div>
+            <div class="footer_date">
+              <div><p>Wednesday</p></div>
+              <div><p>10:30 - 21:00</p></div>
+            </div>
+            <div class="footer_date">
+              <div><p>Thursday</p></div>
+              <div><p>10:30 - 21:00</p></div>
+            </div>
+            <div class="footer_date">
+              <div><p>Friday</p></div>
+              <div><p>10:30 - 21:00</p></div>
+            </div>
+            <div class="footer_date">
+              <div><p>Saturday</p></div>
+              <div><p>10:30 - 21:00</p></div>
+            </div>
+            <div class="footer_date">
+              <div><p>Sunday</p></div>
+              <div><p>10:30 - 21:00</p></div>
+            </div>
+          </div> -->
+          <div class="footer_box">
+            <h1>More Informations</h1>
+            <!-- <p></p> -->
+            <div class="footer_address">
+              <div><i class="ri-map-pin-user-line"></i></div>
+              <h2 id="heading">282 1st Floor Block B, Delhi, 110021, India</h2>
+            </div>
+
+            <p>
+              <a href="tel:9149037220">
+                <i class="ri-smartphone-line"></i>9658745145</a
+              >
+            </p>
+
+            <p>
+              <a href="mailto:your.email@example.com"
+                ><i class="ri-mail-line"></i>xyz@gmail.com</a
+              >
+            </p>
+
+            <div class="footer_social">
+              <a href="https://wa.me/xxx"><i class="ri-whatsapp-line"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="mailto:your.email@example.com"
+                ><i class="ri-mail-line"></i
+              ></a>
+              <a href="tel:9149037220"> <i class="ri-smartphone-line"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./main.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
